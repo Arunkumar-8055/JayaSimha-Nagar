@@ -1,0 +1,720 @@
+/* fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+/* fonts links end */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #41281c;
+    scroll-behavior: smooth;
+}
+
+/* nav section */
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url("humnabad/m-hero\ copy.jpg");
+    background-size: cover;
+}
+
+.headers{
+    margin-top: 1rem;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+.headers .logo h3{
+    font-family: "Roboto", sans-serif;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+}
+.headers button{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration:underline;
+   font-weight: 500;
+}
+
+/* temples */
+.temples .heading{
+    text-align: center;
+    margin: 1rem;
+    position: relative;
+    top: 1rem;
+}
+.temples{
+    width: 100vw;
+}
+.t-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box{
+    margin: 2rem;
+    height: 500px;
+    width:  600px;
+    background-color: aliceblue;
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.t-box .box .img img{
+    height:300px;
+    width: 100%;
+    background-size: cover;
+}
+.t-box .box .histroy{
+    padding: 1rem;
+    letter-spacing: 0.02rem;
+}
+.t-box .box h2{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* God of jayasimha nagar */
+.humnabad{
+    margin-top: 1rem;
+    height: auto;
+    width: 100vw;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+.humnabad h2{
+    padding: 2rem;
+    text-align: center;
+    
+}
+.humnabad .img{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.humnabad .img img{
+    max-height:350px;
+    max-width: 300px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* activities */
+.a-h-m .h2{
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    top: 1rem;
+}
+.a-h-m .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100vw;
+}
+.a-h-m .flex .box .img img{
+    padding: 1rem;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+.a-h-m .flex .box{
+    height: 35rem;
+    width: 30rem;
+}
+.a-h-m .flex .box h2{
+    padding-top: 0.5rem;
+    text-align: center;
+}
+.a-h-m .flex .box .about{
+    padding: 1rem;
+
+}
+
+/* KARSH Restaurant & Sports Arena */
+.karsh{
+    background: url("humnabad/kruskal.heic");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* filter: blur(2px); */
+    background-repeat: no-repeat;
+}
+.karsh .k-h{
+    background-color: rgba(54, 39, 39, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    padding: 20px;
+    align-items: center;
+
+    height: 100vh;
+    /* margin: 30px; */
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.karsh .k-h h2{
+    color: white;
+}
+.karsh .k-h .h-t{
+    position: relative;
+    text-align: start;
+    top: 15rem;
+    left: 4rem;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: white;
+}
+.k-p-v {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    gap: 1rem;
+}
+.k-p-v .img img{
+    height: 30rem;
+    width: auto;
+}
+.k-p-v .video video{
+    height: 30rem;
+    width: auto;
+}
+/* footer */
+.footer{
+    height: 15rem;
+    background-color: rgb(226, 249, 241);
+    line-height: 2rem;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+footer ul h3{
+    margin-bottom: 1rem;
+}
+
+/* responsive */
+@media screen and (max-width:480px){
+
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background: url("humnabad/m\ \(3\).jpg");
+        background-size: cover;
+    }
+    
+   .container .headers nav{
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.4rem;
+        background-color:black;
+        /* border: 2px solid black; */
+        height: 10rem;
+        width: 11rem;
+        justify-content: center;
+        
+    }
+    .headers button{
+        display: inline-block;
+        position: absolute;
+        top: 2.5rem;
+        right: 0.9rem;
+        height: 2.5rem;
+        width:  2.5rem;
+    }
+    .headers{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .headers .logo{
+        margin-left: 0px;
+        width: 10rem;
+    }
+    .headers .logo h3{
+        color: rgb(255, 248, 248);
+        text-align: center;
+        margin-left:0px;
+        font-size: o.5rem;
+    }
+    nav a{
+        color:aliceblue ;
+        border: 1px solid black;
+        width: 10rem;
+        background-color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-align: center;
+    }
+    /* temples */
+    /* God of jayasimha nagar */
+.humnabad{
+    margin-top: 1rem;
+    height: auto;
+    width: 100vw;
+    margin-left: 0rem;
+    margin-right:0rem;
+
+}
+.humnabad h2{
+    padding: 2rem;
+    width: 100%;
+    text-align: center;   
+}
+.humnabad .img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+/* krush */
+.karsh{
+    background: url("humnabad/kruskal.heic");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* filter: blur(2px); */
+    background-repeat: no-repeat;
+}
+.karsh .k-h{
+    background-color: rgba(54, 39, 39, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    padding: 20px;
+    align-items: center;
+
+    height: 100vh;
+    /* margin: 30px; */
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.karsh .k-h h2{
+    color: white;
+    font-size: 2rem;
+}
+.karsh .k-h .h-t{
+    position: relative;
+    text-align: start;
+    top: 20rem;
+    left: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: white;
+}
+.k-p-v {
+    display: grid;
+    grid-template-columns:1fr;
+    place-items: center;
+    height: 300vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    gap: 0.3rem;
+}
+.k-p-v .img img{
+    height: 30rem;
+    width: auto;
+}
+.k-p-v .video video{
+    height: 30rem;
+    width: auto;
+}
+
+/* footer */
+
+.footer{
+    height: 30rem;
+    background-color: rgb(226, 249, 241);
+    line-height: 2rem;
+
+}
+footer{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+footer ul h3{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+}
+
+/* tables */
+@media screen and (min-width:480px){
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background: url("humnabad/m-h.jpg");
+        background-size: cover;
+    
+    }
+    .container .headers{
+        height: 3rem;
+        align-items: center;
+    }
+    .container .headers nav{
+         margin-right: 0rem;
+         display: flex;
+         /* border: 2px solid black; */
+         justify-content: center;
+         align-items: center;
+         margin-right: 1rem; 
+     }
+     .headers .logo{
+         margin-left: 0px;
+         width: auto;
+     }
+     .headers .logo h3{
+         color: rgb(30, 18, 18);
+         text-align: center;
+         margin-left:0px;
+         font-size: 1.6rem;
+     }
+     nav a{
+         color:rgb(0, 0, 0) ;
+         width: auto;
+         text-decoration: none;
+         text-align: center;
+         font-size: 1.1rem;
+         margin: 0px 15px 0px 0px;
+     }
+     nav a:hover{
+        text-decoration:underline;
+     }
+     /* temples */
+     /* God of jayasimha nagar */
+ .humnabad{
+     margin-top: 1rem;
+     height: auto;
+     width: 100vw;
+     margin-left: 0rem;
+     margin-right:0rem;
+ 
+ }
+ .humnabad h2{
+    text-decoration: underline;  
+ }
+
+ .humnabad .img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+ /* krush */
+ .karsh .k-h h2{
+     color: white;
+     font-size: 2rem;
+ }
+ .karsh .k-h .h-t{
+     position: relative;
+     text-align: start;
+     top: 20rem;
+     left: 0.5rem;
+     text-transform: capitalize;
+     font-size: 1.7rem;
+     color: white;
+ }
+ .k-p-v {
+     display: grid;
+     grid-template-columns:1fr 1fr;
+     place-items: center;
+     height: 200vh;
+     width: 100vw;
+     gap: 0.3rem;
+ }
+ .k-p-v .img img{
+     height: 30rem;
+     width: auto;
+ }
+ .k-p-v .video video{
+     height: 30rem;
+     width: auto;
+ }
+ 
+ /* footer */
+ .footer{
+     height: 30rem;
+     background-color: rgb(226, 249, 241);
+     line-height: 2rem;
+ 
+ }
+ footer{
+     display: grid;
+     grid-template-columns:1fr 1fr;
+     place-items: center;
+     gap: 2rem;
+ }
+ footer ul h3{
+     margin-top: 1rem;
+     text-decoration: underline;
+ }
+ }
+ @media screen and (min-width:770px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #41281c;
+    
+}
+/* nav section */
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url("humnabad/m-hero\ copy.jpg");
+    background-size: cover;
+
+}
+
+.headers{
+    margin-top: 1rem;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+.headers .logo h3{
+    font-family: "Roboto", sans-serif;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+}
+.headers button{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration:underline;
+   font-weight: 500;
+}
+
+/* temples */
+.temples .heading{
+    text-align: center;
+    margin: 1rem;
+    position: relative;
+    top: 1rem;
+}
+.temples{
+    width: 100vw;
+}
+.t-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box{
+    margin: 2rem;
+    height: 500px;
+    width:  600px;
+    background-color: aliceblue;
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.t-box .box .img img{
+    /* padding: 1rem; */
+    height:300px;
+    width: 100%;
+    background-size: cover;
+    /* background: url("humnabad/m-hero.jpg"); */
+}
+.t-box .box .histroy{
+    padding: 1rem;
+    letter-spacing: 0.02rem;
+   
+}
+.t-box .box h2{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* God of jayasimha nagar */
+.humnabad{
+    margin-top: 1rem;
+    height: auto;
+    width: 100vw;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+.humnabad h2{
+    padding: 2rem;
+    text-align: center;
+    
+}
+.humnabad .img{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.humnabad .img img{
+    max-height:350px;
+    max-width: 300px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* activities */
+.a-h-m .h2{
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    top: 1rem;
+}
+.a-h-m .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100vw;
+}
+.a-h-m .flex .box .img img{
+    padding: 1rem;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.a-h-m .flex .box{
+    height: 35rem;
+    width: 30rem;
+}
+.a-h-m .flex .box h2{
+    padding-top: 0.5rem;
+    text-align: center;
+}
+.a-h-m .flex .box .about{
+    padding: 1rem;
+}
+
+/* KARSH Restaurant & Sports Arena */
+.karsh{
+    background: url("humnabad/kruskal.heic");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* filter: blur(2px); */
+    background-repeat: no-repeat;
+}
+.karsh .k-h{
+    background-color: rgba(54, 39, 39, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    padding: 20px;
+    align-items: center;
+
+    height: 100vh;
+    /* margin: 30px; */
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.karsh .k-h h2{
+    color: white;
+}
+.karsh .k-h .h-t{
+    position: relative;
+    text-align: start;
+    top: 15rem;
+    left: 4rem;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: white;
+}
+.k-p-v {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    gap: 1rem;
+}
+.k-p-v .img img{
+    height: 30rem;
+    width: auto;
+}
+.k-p-v .video video{
+    height: 30rem;
+    width: auto;
+}
+/* footer */
+.footer{
+    height: 15rem;
+    background-color: rgb(226, 249, 241);
+    line-height: 2rem;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+footer ul h3{
+    margin-bottom: 1rem;
+}
+    
+ }
